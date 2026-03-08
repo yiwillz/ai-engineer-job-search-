@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-950 text-gray-100;
+  width: 380px;
+  min-height: 200px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
